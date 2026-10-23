@@ -1,0 +1,48 @@
+:root {
+  --bg: #F3F4F1;
+  --ink: #1D2321;
+  --accent: #2F7D4F;
+  --line: #DADFDA;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 1px solid var(--line);
+  margin-top: 40px;
+}
+
+/* NOUVEAUX STYLES ICI */
